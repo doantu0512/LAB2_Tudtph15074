@@ -1,0 +1,17 @@
+    header{
+        position: relative;
+    }
+    .kenh14{
+        position:absolute;
+        text-align: left ;
+        font-size: 45px;
+        font-family:Lucida Bright ;
+        right: -900px;
+        bottom: 100px;
+        font-variant: small-caps;
+    }
+    .form-control{
+        font-size: 18px;
+        
+    }
+        

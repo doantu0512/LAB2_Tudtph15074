@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Bài 3</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-sc ale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/29b41ee1c8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" id="navId">
+      <li class="nav-item">
+        <a href="#tab1Id" class="nav-link active" data-toggle="tab">Thông tin</a>
+      </li>
+
+      <li class="nav-item">
+        <a href="#tab2Id" class="nav-link" data-toggle="tab">Danh Sách</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="tab1Id" role="tabpanel">
+        <div class="card">
+          <div class="card-header">
+            <i class="fa fa-address-book"></i>
+            NHẬP LƯƠNG THÁNG 12
+          </div>
+          <form action="#">
+            <div class="row" style="margin: 5px;">
+              <div class="form-groups col-sm-6">
+                <label for="">Mã Nhân Viên</label>
+                <input type="text" class="form-control" placeholder="">
+              </div>
+              <div class="form-groups col-sm-6">
+                <label for="">Họ và Tên</label>
+                <input type="text" class="form-control" placeholder="">
+              </div>
+            </div>
+            <div class="row" style="margin: 5px;">
+              <div class="form-groups col-sm-6">
+                <label for="">Câu lạc bộ</label>
+                <select name="" id="" class="form-control">
+                  <option value="">HÀ NỘI</option>
+                  <option value="">ĐÀ NẴNG</option>
+                  <option value="">HCM</option>
+                </select>
+              </div>
+              <div class="form-groups col-sm-6">
+                <label for="">Lương</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                  </div>
+                  <input class="form-control" type="text" name="" placeholder="" aria-label="Recipient's ">
+                  <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row" style="margin: 5px;">
+              <div class="form-groups col-sm-6">
+                <label for="">Thưởng</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                  </div>
+                  <input class="form-control" type="text" name="" placeholder="" aria-label="Recipient's ">
+                  <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                  </div>
+                </div>
+                
+              </div>
+              <div class="form-groups col-sm-6">
+                <label for="">Phụ Cấp</label>
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">$</span>
+                  </div>
+                  <input class="form-control" type="text" name="" placeholder="" aria-label="Recipient's ">
+                  <div class="input-group-append">
+                    <span class="input-group-text">.00</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-groups col-sm-12">
+              <label for="">Ghi chú</label>
+              <textarea class="form-control" name="" id="" cols="" rows="4"></textarea>
+            </div>
+            <div class="row" style="margin: 5px;">
+              <div class="form-group col-sm-12">
+                <button type="button" class="btn btn-primary" style="font-size: 16px;">
+                  <i class="far fa-save"></i> Lưu</button>
+                <button type="button" class="btn btn-primary" style="font-size: 16px;">
+                  <i class="fas fa-ban"></i> Hủy</button>
+              </div>
+
+            </div>
+        </div>
+        </form>
+        <div class="card-footer">
+          Vui lùng nhập thông tin cầu thủ
+        </div>
+      </div>
+      <div class="tab-pane fade" id="tab2Id" role="tabpanel">
+        <div class="card">
+          <div class="card-header ">
+            <i class="far fa-address-card"></i>
+            BẢNG LƯƠNG THÁNG 12
+          </div>
+          <table class="table table-bordered " style="margin-bottom: 0;">
+            <tr class="table-warning text-uppercase">
+              <th scope="col" class="pt-5 text-center" rowspan="2">MÃ NV</th>
+              <th scope="col" class="pt-5 text-center" rowspan="2">Họ và tên</th>
+              <th scope="col" colspan="3" class="text-center">Thu nhập</th>
+            </tr>
+            <tr class="table-warning text-center">
+              <th>LƯƠNG</th>
+              <th>THƯỞNG</th>
+              <th>PHỤ CẤP</th>
+            </tr>
+
+            <tbody>
+              <tr>
+                <td>NV100</td>
+                <td>Nguyễn Công Phượng</td>
+                <td>5000000</td>
+                <td>500000</td>
+                <td>0</td>
+              </tr>
+              <tr>
+                <td>NV102</td>
+                <td>Phan Văn Tài Em</td>
+                <td>9000000</td>
+                <td>600000</td>
+                <td>100000</td>
+              </tr>
+              <tr>
+                <td>NV103</td>
+                <td>Lê Huỳnh Đức</td>
+                <td>7000000</td>
+                <td>300000</td>
+                <td>200000</td>
+              </tr>
+            </tbody>
+
+          </table>
+          <div class="card-footer">
+            Lương của cầu thủ và huấn luyện viên chuyên nghiệp
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
